@@ -1,5 +1,8 @@
 set :application, 'WPbedrock'
+set :scm, :git
 set :repo_url, 'git@github.com:ToniChaz/bedrock.git'
+
+set :use_sudo, true
 
 # Branch options
 # Prompts for the branch name (defaults to current branch)
@@ -9,10 +12,10 @@ set :repo_url, 'git@github.com:ToniChaz/bedrock.git'
 # This could be overridden in a stage config file
 set :branch, :master
 
-set :deploy_to, -> { "/srv/www/#{fetch(:application)}" }
+set :deploy_to, -> { "/home/toni/www/#{fetch(:application)}" }
 
 # Use :debug for more verbose output when troubleshooting
-set :log_level, :info
+set :log_level, :debug
 
 # Apache users with .htaccess files:
 # it needs to be added to linked_files so it persists across deploys:

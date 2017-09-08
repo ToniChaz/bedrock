@@ -54,7 +54,8 @@
     "johnpbloch/wordpress": "4.8.1",
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "contentlead/contentlead-wp-plugin": "1.3.4"
+    "contentlead/contentlead-wp-plugin": "1.3.4",
+    "wpackagist-plugin/wp-super-cache": "1.5.5"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
