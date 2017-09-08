@@ -4,8 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "478a616da0ece885320259c09f17097d",
+    "content-hash": "b34c7453435f4f149c129f704ba96789",
     "packages": [
+        {
+            "name": "ToniChaz/custom-product-page",
+            "version": "1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/ToniChaz/custom-product-page/archive/master.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "v1.2.0"
+            },
+            "type": "wordpress-plugin"
+        },
         {
             "name": "composer/installers",
             "version": "v1.2.0",
